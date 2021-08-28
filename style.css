@@ -1,0 +1,300 @@
+*{
+    box-sizing: border-box;
+    margin:0%;
+    padding: 0%;
+}
+
+body{
+    width: min-content;
+    margin: 0 auto;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.try{
+    float: right;
+    color: hsl(321, 100%, 78%);
+    border-color:hsl(321, 100%, 78%);
+    border-radius: 30px;
+    padding: 5px 20px; 
+    background-color: transparent;
+    border-style: solid;
+}
+
+.build{
+    margin-top: 10%;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    /* margin-top: 100px; */
+    font-size: 3rem;
+}
+
+.build p{
+ font-size: 1.4rem;
+ font-family: 'Open Sans', sans-serif;
+ text-align: center;    
+ /* padding: auto; */
+ 
+}
+
+.get {
+    border-style:hidden;
+    border-radius: 30px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 20px 70px;
+    margin-top: 30px;
+    margin-bottom: 5rem;
+    font-size: medium;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    /* text-align: center; */
+    font-family: 'Poppins', sans-serif;
+    /* margin-top: 100px; */
+    font-size: 5rem;
+}
+
+.foll{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5rem;
+}
+
+.foll img{
+    width: 30%;
+}
+
+.mobile{
+    display: none;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+
+}
+
+.grow{
+    background-color: #F6FBFF;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1 {
+    /* margin: 0 auto; */
+    background-color: #F6FBFF;
+    display: flex;
+    /* flex-direction: row;  */
+    justify-content: space-around;
+    width: 1440px;
+    /* justify-items: center; */
+} 
+
+.content{
+    align-self: center;
+}
+
+.content p{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.container1 img{
+    width: 35%;
+}
+
+.content p{
+    max-width: 530px;
+}
+
+.container2{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.container2 img{
+    width: 35%;
+}
+
+.content2{
+    align-self: center;
+}
+
+.footer{
+    color: #fff;
+    text-shadow: none;
+    display: flex;
+    /* flex-direction: row; */
+    max-width: 1440px;
+    justify-content:space-evenly;
+    margin: 0 10px;
+    text-align: center;
+    font-size: small;
+}
+
+.social{
+    display: flex;
+    flex-direction: column; 
+    text-align: start;
+    margin: 1.5rem auto;  
+}
+
+.social .fa{
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+}
+
+.footer-icons{
+
+      
+    font-size: 3rem;
+    margin: 2rem 10px; 
+    color: lightgray;
+}
+.footer-icons :hover{
+    color: lightskyblue 
+}
+
+.footer p{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin: 1rem auto;
+    font-size:18px;
+
+}
+
+.footer h1{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin: 1rem auto;
+}
+
+.footer input{
+    padding: 0.5em 30px;
+    border-radius: 5px;
+}
+
+.footer button{
+    margin: 2rem 0px;
+    padding: 0.5em 20px;
+    border-radius: 5px;
+    background-color: hsl(322, 100%, 66%);
+    color: lightgray;
+    margin-left: 2em;
+}
+
+li{
+    font-size: 18px;
+}
+
+button:hover{
+    background-color: hsl(321, 100%, 78%);
+    border-color: hsl(321, 100%, 78%);
+}
+
+.try:hover{
+    color: hsl(321, 100%, 78%);
+    border-color: hsl(321, 100%, 78%);  
+}
+
+small{
+    display: flex;
+    margin-top: auto;
+    color: red;
+    font-size: medium;
+}
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 375px){
+    *{
+        box-sizing: border-box;
+        width: auto;
+        /* overflow-x: hidden; */
+    }
+    .container{
+        width: 370px;
+    }
+
+    .foll{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    body{
+        width: 375px;;
+        display: flex;
+        flex-direction: column;
+    }
+
+    p, h1{
+        text-align: center;
+    }
+
+    p, h3{
+        font-size: small;
+    }
+
+    .mockups{
+        width: 275px;
+    }
+
+    .footer{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+
+    h1{
+        font-size: 2rem;
+        margin: 2rem auto;
+    }
+
+    .container1{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        /* justify-content:left; */
+        width: 370px;
+    }
+
+    .container1 img{
+        width: 50%;
+        margin-bottom: 1em;
+    }
+
+    .footer button{
+        /* float: center; */
+        margin-left: auto;
+    }
+
+    form{
+       display: flex;
+       flex-direction: column; 
+    }
+
+
+
+    
+    
+}
+
+
